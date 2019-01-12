@@ -16,20 +16,23 @@ function greeting(name) {
 //Name it newGreeting.
 
 //Code Here
+var newGreeting = function(name) {
+  return `Hello, ${name}`
+}
 
 //////////////////PROBLEM 3////////////////////
 
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting.
 
-//Code Here
+var finalGreeting = (name) => 'Hello, ${name}'
 
 //////////////////PROBLEM 4////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+var groceries = ["apples", "milk", "eggs", "bread"];
 
 //Write a function called doubleCheck that takes in an array
 //as a parameter.
@@ -37,7 +40,13 @@ function greeting(name) {
 //If the array does not contain "chocolate", add "chocolate".
 //doubleCheck should return the array.
 
-//Code Here
+function doubleCheck(arr){
+  var choc = 1
+  for (var i =0;i <="chocolate"; i++){
+    return doubleCheck
+  }
+
+}
 
 //////////////////PROBLEM 5////////////////////
 
@@ -121,8 +130,7 @@ function bathroom() {
 
 function pond() {
   let realDuck = "fluffy";
-}
-
+}   
 //There are 4 variables above: duck, rubberDuck, sailorDuck and realDuck
 //all within different scopes.
 //Given the functions and variables above, edit the arrays
